@@ -1,19 +1,19 @@
 Processing Log:
- Stored (10) HP Potion
- Stored ( 5) MP Potion
- Stored ( 2) Bow Tie
- Stored ( 3) Dirt
- Stored (27) Iron Ore
- Stored (44) Diamond Ore
- Stored (55) Iron Ingot
- Stored ( 1) Diamond
- Stored ( 4) Diamond Block
- Stored ( 3) Dirt
- Stored ( 5) MP Potion
- Stored ( 4) Diamond Block
- Stored ( 1) Diamond
- Stored ( 2) Iron Ore
- Stored ( 5) Iron Ingot
+ Stored     (10) HP Potion
+ Stored     ( 5) MP Potion
+ Stored     ( 2) Bow Tie
+ Stored     ( 3) Dirt
+ Stored     (27) Iron Ore
+ Stored     (44) Diamond Ore
+ Stored     (55) Iron Ingot
+ Stored     ( 1) Diamond
+ Stored     ( 4) Diamond Block
+ Stored     ( 3) Dirt
+ Stored     ( 5) MP Potion
+ Stored     ( 4) Diamond Block
+ Stored     ( 1) Diamond
+ Stored     ( 2) Iron Ore
+ Stored     ( 5) Iron Ingot
 
 Item List:
    0 Air

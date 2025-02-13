@@ -1,6 +1,6 @@
 Processing Log:
- Stored (10) HP Potion
- Stored ( 3) Dirt
+ Stored     (10) HP Potion
+ Stored     ( 3) Dirt
 
 Item List:
    0 Air
