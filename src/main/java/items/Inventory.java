@@ -31,8 +31,10 @@ public class Inventory implements Iterable<ItemStack>, Cloneable
     public static void mergeStacks(ItemStack lhs, ItemStack rhs)
     {
         // Refer to the notes from Assignment 1
+	// method to add amount: addItems() and size()
+	
+	lhs.addItems(rhs.size());   
     }
-
     /**
      * Individual item slots--each ItemStack occupies one slot.
      */
@@ -224,9 +226,12 @@ public class Inventory implements Iterable<ItemStack>, Cloneable
         StringBuilder strBld = new StringBuilder();
         strBld.append(summaryLine);
 
-        // Add the missing loop
-
-        return strBld.toString();
+	for (int i = 0; i < this.slots.size(); i++) {
+		String itemLine = String.format("  %s%n", this.slots.get(i));
+		strBld.append(itemLine);
+	}
+       
+	return strBld.toString();
     }
 
     @Override
