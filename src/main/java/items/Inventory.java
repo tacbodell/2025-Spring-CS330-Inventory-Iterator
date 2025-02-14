@@ -95,7 +95,7 @@ public class Inventory implements Iterable<ItemStack>, Cloneable
     public boolean isFull()
     {
         // Replace the next line
-        return false;
+        return this.slots.size() >= this.capacity;
     }
 
     /**
