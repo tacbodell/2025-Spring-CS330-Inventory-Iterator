@@ -131,6 +131,7 @@ public class Inventory implements Iterable<ItemStack>, Cloneable
     public void addItemStackNoCheck(ItemStack toAdd)
     {
         // Add the missing (one) line by using `this.slots.add(????)`
+	this.slots.add(toAdd);
     }
 
     /**
